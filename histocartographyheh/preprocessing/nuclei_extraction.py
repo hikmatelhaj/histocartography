@@ -29,8 +29,8 @@ from ..utils.image import extract_patches_from_image
 from ..utils import download_box_link
 
 DATASET_TO_BOX_URL = {
-    "pannuke": "https://ibm.box.com/shared/static/hrt04i3dcv1ph1veoz8x6g8a72u0uw58.pt",
-    "monusac": "https://ibm.box.com/shared/static/u563aoydow9w2kpgw0l8esuklegdtdij.pt",
+    "pannuke": "https://uc7c2cd52e39b79d7005c4bf585c.dl.dropboxusercontent.com/cd/0/get/CdnYSQiUbWgBM7kfopvtu7pqiP6wtarGmdtqEY-oAeFq2hY_FHtrgDNGd3ibDt9C5PIP_9S5PSTRslc4mE0OS6E_-0dIO9Fd096kelGlnb9VLuOa0hNbAXIWmbH3z-3gCIpACXACVOB9xePWJ8tHDvlI1pz84b6gaJYUD5XMNQ0Wag/file?_download_id=932503981460602471343564650860050802421926379108826001952622304514&_log_download_success=1&_notify_domain=www.dropbox.com&dl=1",
+    "monusac": "https://uc9510589cc018b49aada9b6dae0.dl.dropboxusercontent.com/cd/0/get/CdknHPjsH1tsbF9IL9znnUrafwCRFkYNcsuyyvnanvCwi0cT7w3j1dcUyH6AWjrHjKaONQ1JD6f96pL4z9t9tSj-Z8AdOdOyD6Yswm4CTabLyswAp-LbEYOV1KFCoYFQF03uw111s8GMchK1GpAAw4RZpfx41JDwdAoaEIfFK10xfw/file?_download_id=83798176768833053546258149378563933220074823083422359544647511642&_log_download_success=1&_notify_domain=www.dropbox.com&dl=1",
 }
 
 CHECKPOINT_PATH = "../../checkpoints"

@@ -4,8 +4,10 @@ import matplotlib.pyplot as plt
 from collections.abc import Iterable
 import numpy as np
 
-plt.style.use("seaborn-whitegrid")
-
+try:
+    plt.style.use("seaborn-v0_8-whitegrid")
+except:
+    plt.style.use("seaborn-whitegrid")
 
 def name2rgb(color_name):
     return tuple(matplotlib.colors.to_rgba(color_name)[0:3])
